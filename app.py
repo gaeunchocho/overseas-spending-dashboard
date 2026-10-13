@@ -7,14 +7,14 @@ import streamlit as st
 
 from data_utils import demo_csv, load_csv, summarize
 
-st.set_page_config(page_title='교환학생가면 얼마나 쓸까? -조가은의 소비결과-', page_icon='🌍', layout='wide', initial_sidebar_state='collapsed')
+st.set_page_config(page_title='교환학생가면 얼마나 쓸까?', page_icon='🌍', layout='wide', initial_sidebar_state='collapsed')
 st.markdown('''<style>
 .stApp {background:#fafbfc;}
 .block-container {padding-top:2rem; max-width:1100px;}
 div[data-testid="stMetric"] {background:white; padding:18px; border:1px solid #e2e8f0; border-radius:16px;}
 h1,h2,h3 {color:#17243b;}
 </style>''', unsafe_allow_html=True)
-st.title('교환학생가면 얼마나 쓸까? -조가은의 소비결과-')
+st.title('교환학생가면 얼마나 쓸까?')
 st.caption('어떤 업종에서, 어느 나라에서, 얼마나 썼는지 확인하세요.')
 
 with st.sidebar:
